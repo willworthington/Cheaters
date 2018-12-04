@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/willworthington/CLionProjects/Cheaters/cheaters_driver.cpp" "C:/Users/willworthington/CLionProjects/Cheaters/cmake-build-debug/CMakeFiles/Cheaters.dir/cheaters_driver.cpp.obj"
+  "C:/Users/willworthington/CLionProjects/Cheaters/plagiarismCatcher.cpp" "C:/Users/willworthington/CLionProjects/Cheaters/cmake-build-debug/CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.obj"
+  "C:/Users/willworthington/CLionProjects/Cheaters/tests.cpp" "C:/Users/willworthington/CLionProjects/Cheaters/cmake-build-debug/CMakeFiles/Cheaters.dir/tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

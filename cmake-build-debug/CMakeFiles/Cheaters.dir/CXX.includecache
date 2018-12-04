@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/willworthington/CLionProjects/Cheaters/hash.h
+vector
+-
+string
+-
+
+C:/Users/willworthington/CLionProjects/Cheaters/plagiarismCatcher.cpp
+iostream
+-
+hash.h
+C:/Users/willworthington/CLionProjects/Cheaters/hash.h
+
+C:/Users/willworthington/CLionProjects/Cheaters/tests.cpp
+

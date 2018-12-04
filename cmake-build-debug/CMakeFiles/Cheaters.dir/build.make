@@ -58,36 +58,57 @@ include CMakeFiles\Cheaters.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Cheaters.dir\flags.make
 
-CMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj: CMakeFiles\Cheaters.dir\flags.make
-CMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj: ..\cheaters_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cheaters.dir/cheaters_driver.cpp.obj"
+CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj: CMakeFiles\Cheaters.dir\flags.make
+CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj: ..\plagiarismCatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj /FdCMakeFiles\Cheaters.dir\ /FS -c C:\Users\willworthington\CLionProjects\Cheaters\cheaters_driver.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj /FdCMakeFiles\Cheaters.dir\ /FS -c C:\Users\willworthington\CLionProjects\Cheaters\plagiarismCatcher.cpp
 <<
 
-CMakeFiles\Cheaters.dir\cheaters_driver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cheaters.dir/cheaters_driver.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe > CMakeFiles\Cheaters.dir\cheaters_driver.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\willworthington\CLionProjects\Cheaters\cheaters_driver.cpp
+CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.i"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe > CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\willworthington\CLionProjects\Cheaters\plagiarismCatcher.cpp
 <<
 
-CMakeFiles\Cheaters.dir\cheaters_driver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cheaters.dir/cheaters_driver.cpp.s"
+CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.s"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Cheaters.dir\cheaters_driver.cpp.s /c C:\Users\willworthington\CLionProjects\Cheaters\cheaters_driver.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.s /c C:\Users\willworthington\CLionProjects\Cheaters\plagiarismCatcher.cpp
+<<
+
+CMakeFiles\Cheaters.dir\tests.cpp.obj: CMakeFiles\Cheaters.dir\flags.make
+CMakeFiles\Cheaters.dir\tests.cpp.obj: ..\tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cheaters.dir/tests.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Cheaters.dir\tests.cpp.obj /FdCMakeFiles\Cheaters.dir\ /FS -c C:\Users\willworthington\CLionProjects\Cheaters\tests.cpp
+<<
+
+CMakeFiles\Cheaters.dir\tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cheaters.dir/tests.cpp.i"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe > CMakeFiles\Cheaters.dir\tests.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\willworthington\CLionProjects\Cheaters\tests.cpp
+<<
+
+CMakeFiles\Cheaters.dir\tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cheaters.dir/tests.cpp.s"
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Cheaters.dir\tests.cpp.s /c C:\Users\willworthington\CLionProjects\Cheaters\tests.cpp
 <<
 
 # Object files for target Cheaters
 Cheaters_OBJECTS = \
-"CMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj"
+"CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj" \
+"CMakeFiles\Cheaters.dir\tests.cpp.obj"
 
 # External object files for target Cheaters
 Cheaters_EXTERNAL_OBJECTS =
 
-Cheaters.exe: CMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj
+Cheaters.exe: CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj
+Cheaters.exe: CMakeFiles\Cheaters.dir\tests.cpp.obj
 Cheaters.exe: CMakeFiles\Cheaters.dir\build.make
 Cheaters.exe: CMakeFiles\Cheaters.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cheaters.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Cheaters.exe"
 	"C:\Users\willworthington\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Cheaters.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Cheaters.dir\objects1.rsp @<<
  /out:Cheaters.exe /implib:Cheaters.lib /pdb:C:\Users\willworthington\CLionProjects\Cheaters\cmake-build-debug\Cheaters.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

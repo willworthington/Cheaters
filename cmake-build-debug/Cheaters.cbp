@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/cheaters_driver.cpp">
-			<Option target="Cheaters"/>
-		</Unit>
 		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/hash.h">
 			<Option target="Cheaters"/>
 		</Unit>
-		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/linked_list.h">
+		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/plagiarismCatcher.cpp">
+			<Option target="Cheaters"/>
+		</Unit>
+		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/tests.cpp">
 			<Option target="Cheaters"/>
 		</Unit>
 		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/CMakeLists.txt">

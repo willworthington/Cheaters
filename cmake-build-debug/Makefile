@@ -124,32 +124,59 @@ Cheaters\fast:
 	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\build
 .PHONY : Cheaters\fast
 
-cheaters_driver.obj: cheaters_driver.cpp.obj
+plagiarismCatcher.obj: plagiarismCatcher.cpp.obj
 
-.PHONY : cheaters_driver.obj
+.PHONY : plagiarismCatcher.obj
 
 # target to build an object file
-cheaters_driver.cpp.obj:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\cheaters_driver.cpp.obj
-.PHONY : cheaters_driver.cpp.obj
+plagiarismCatcher.cpp.obj:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj
+.PHONY : plagiarismCatcher.cpp.obj
 
-cheaters_driver.i: cheaters_driver.cpp.i
+plagiarismCatcher.i: plagiarismCatcher.cpp.i
 
-.PHONY : cheaters_driver.i
+.PHONY : plagiarismCatcher.i
 
 # target to preprocess a source file
-cheaters_driver.cpp.i:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\cheaters_driver.cpp.i
-.PHONY : cheaters_driver.cpp.i
+plagiarismCatcher.cpp.i:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.i
+.PHONY : plagiarismCatcher.cpp.i
 
-cheaters_driver.s: cheaters_driver.cpp.s
+plagiarismCatcher.s: plagiarismCatcher.cpp.s
 
-.PHONY : cheaters_driver.s
+.PHONY : plagiarismCatcher.s
 
 # target to generate assembly for a file
-cheaters_driver.cpp.s:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\cheaters_driver.cpp.s
-.PHONY : cheaters_driver.cpp.s
+plagiarismCatcher.cpp.s:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.s
+.PHONY : plagiarismCatcher.cpp.s
+
+tests.obj: tests.cpp.obj
+
+.PHONY : tests.obj
+
+# target to build an object file
+tests.cpp.obj:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.obj
+.PHONY : tests.cpp.obj
+
+tests.i: tests.cpp.i
+
+.PHONY : tests.i
+
+# target to preprocess a source file
+tests.cpp.i:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.i
+.PHONY : tests.cpp.i
+
+tests.s: tests.cpp.s
+
+.PHONY : tests.s
+
+# target to generate assembly for a file
+tests.cpp.s:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.s
+.PHONY : tests.cpp.s
 
 # Help Target
 help:
@@ -160,9 +187,12 @@ help:
 	@echo ... edit_cache
 	@echo ... Cheaters
 	@echo ... rebuild_cache
-	@echo ... cheaters_driver.obj
-	@echo ... cheaters_driver.i
-	@echo ... cheaters_driver.s
+	@echo ... plagiarismCatcher.obj
+	@echo ... plagiarismCatcher.i
+	@echo ... plagiarismCatcher.s
+	@echo ... tests.obj
+	@echo ... tests.i
+	@echo ... tests.s
 .PHONY : help
 
 
