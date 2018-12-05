@@ -34,9 +34,10 @@ public:
 
     //all functions used in filling the hash table
     int hashFunction(const vector <string> key);
-    void scanFile(const string fName);  //scans through file and hashes every n-word key
+    void scanFiles(const string dName);  //scans through all files in directory and hashes every n-word key
     void scanDirectory(const string dName);  //scans through entire directory, calls scanFile
     int push(const HashNode* top);  // pushes new node to top of linked list for its row
+    string cleanText(const string dirtyWord);
 
 
     //all functions used in reading/analyzing the hash table

@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/willworthington/CLionProjects/Cheaters/hash.cpp
+hash.h
 C:/Users/willworthington/CLionProjects/Cheaters/hash.h
 vector
 -
 string
 -
-
-C:/Users/willworthington/CLionProjects/Cheaters/plagiarismCatcher.cpp
+cstring
+-
 iostream
 -
-hash.h
-C:/Users/willworthington/CLionProjects/Cheaters/hash.h
+fstream
+-
 
-C:/Users/willworthington/CLionProjects/Cheaters/tests.cpp
+C:/Users/willworthington/CLionProjects/Cheaters/hash.h
+vector
+-
+string
+-
 

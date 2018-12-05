@@ -124,6 +124,33 @@ Cheaters\fast:
 	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\build
 .PHONY : Cheaters\fast
 
+hash.obj: hash.cpp.obj
+
+.PHONY : hash.obj
+
+# target to build an object file
+hash.cpp.obj:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\hash.cpp.obj
+.PHONY : hash.cpp.obj
+
+hash.i: hash.cpp.i
+
+.PHONY : hash.i
+
+# target to preprocess a source file
+hash.cpp.i:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\hash.cpp.i
+.PHONY : hash.cpp.i
+
+hash.s: hash.cpp.s
+
+.PHONY : hash.s
+
+# target to generate assembly for a file
+hash.cpp.s:
+	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\hash.cpp.s
+.PHONY : hash.cpp.s
+
 plagiarismCatcher.obj: plagiarismCatcher.cpp.obj
 
 .PHONY : plagiarismCatcher.obj
@@ -187,6 +214,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Cheaters
 	@echo ... rebuild_cache
+	@echo ... hash.obj
+	@echo ... hash.i
+	@echo ... hash.s
 	@echo ... plagiarismCatcher.obj
 	@echo ... plagiarismCatcher.i
 	@echo ... plagiarismCatcher.s

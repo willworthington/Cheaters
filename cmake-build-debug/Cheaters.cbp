@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/hash.cpp">
+			<Option target="Cheaters"/>
+		</Unit>
 		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/hash.h">
 			<Option target="Cheaters"/>
 		</Unit>

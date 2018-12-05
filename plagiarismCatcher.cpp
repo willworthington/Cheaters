@@ -8,6 +8,7 @@
 using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Hash h(6);
+    h.scanFiles("sm_doc_set");
+
 }
