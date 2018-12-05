@@ -12,18 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77db6b3-9b19-4f0d-ad01-18931eb0bf1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hash.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/hash.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cheaters.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cheaters.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cheaters.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cheaters.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cheaters.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cheaters.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cheaters.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cheaters.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cheaters.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/hash.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plagiarismCatcher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/plagiarismCatcher.cpp" afterDir="false" />
     </list>
@@ -45,24 +43,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="2" />
-          <entry key="h" value="2" />
+          <entry key="cpp" value="3" />
+          <entry key="h" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="900" />
-          <entry key="h" value="1174" />
+          <entry key="cpp" value="2271" />
+          <entry key="h" value="1194" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2074" />
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="ObjectiveC" value="3465" />
         </counts>
       </usages-collector>
     </session>
@@ -71,14 +71,18 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plagiarismCatcher.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="e#51#70#0" expanded="true" />
               </folding>
@@ -89,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+            <state relative-caret-position="331">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
               <folding>
                 <element signature="e#100#117#0" expanded="true" />
               </folding>
@@ -98,13 +102,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="e#51#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dirent.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3438">
+              <caret line="1224" selection-start-line="1224" selection-end-line="1224" />
+              <folding>
+                <element signature="e#473#493#0" expanded="true" />
+                <element signature="e#946#983#0" expanded="true" />
+                <element signature="e#1075#1100#0" expanded="true" />
+                <element signature="e#1151#1178#0" expanded="true" />
+                <element signature="e#1236#1263#0" expanded="true" />
+                <element signature="e#1393#1420#0" expanded="true" />
+                <element signature="e#1473#1500#0" expanded="true" />
+                <element signature="e#1555#1584#0" expanded="true" />
+                <element signature="e#1640#1667#0" expanded="true" />
+                <element signature="e#2799#2831#0" expanded="true" />
+                <element signature="e#8104#8124#0" expanded="true" />
+                <element signature="e#8896#8935#0" expanded="true" />
+                <element signature="e#30029#30104#0" expanded="true" />
+                <element signature="e#30631#60005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +150,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nineteen eightyfour was written</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -129,8 +163,10 @@
       <list>
         <option value="$PROJECT_DIR$/linked_list.h" />
         <option value="$PROJECT_DIR$/hash.h" />
-        <option value="$PROJECT_DIR$/plagiarismCatcher.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/hash.cpp" />
+        <option value="$PROJECT_DIR$/plagiarismCatcher.cpp" />
+        <option value="$PROJECT_DIR$/dirent.h" />
       </list>
     </option>
   </component>
@@ -141,9 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="5" />
-    <option name="width" value="2845" />
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -170,6 +205,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,15 +245,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543944708383</updated>
-      <workItem from="1543944710317" duration="10439000" />
+      <workItem from="1543944710317" duration="19561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10439000" />
+    <option name="totallyTimeSpent" value="19561000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="2" width="1138" height="830" extended-state="0" />
+    <frame x="392" y="21" width="1138" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -226,12 +262,12 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32904148" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32904148" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,19 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-          <folding>
-            <element signature="e#100#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -276,10 +299,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="e#100#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/pydev/pydevd_attach_to_process/dll/attach.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3842">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plagiarismCatcher.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#51#70#0" expanded="true" />
           </folding>
@@ -288,10 +335,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hash.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
           <folding>
             <element signature="e#51#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dirent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3438">
+          <caret line="1224" selection-start-line="1224" selection-end-line="1224" />
+          <folding>
+            <element signature="e#473#493#0" expanded="true" />
+            <element signature="e#946#983#0" expanded="true" />
+            <element signature="e#1075#1100#0" expanded="true" />
+            <element signature="e#1151#1178#0" expanded="true" />
+            <element signature="e#1236#1263#0" expanded="true" />
+            <element signature="e#1393#1420#0" expanded="true" />
+            <element signature="e#1473#1500#0" expanded="true" />
+            <element signature="e#1555#1584#0" expanded="true" />
+            <element signature="e#1640#1667#0" expanded="true" />
+            <element signature="e#2799#2831#0" expanded="true" />
+            <element signature="e#8104#8124#0" expanded="true" />
+            <element signature="e#8896#8935#0" expanded="true" />
+            <element signature="e#30029#30104#0" expanded="true" />
+            <element signature="e#30631#60005#0" expanded="true" />
           </folding>
         </state>
       </provider>
