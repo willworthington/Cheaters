@@ -92,9 +92,6 @@
 		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/plagiarismCatcher.cpp">
 			<Option target="Cheaters"/>
 		</Unit>
-		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/tests.cpp">
-			<Option target="Cheaters"/>
-		</Unit>
 		<Unit filename="C:/Users/willworthington/CLionProjects/Cheaters/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

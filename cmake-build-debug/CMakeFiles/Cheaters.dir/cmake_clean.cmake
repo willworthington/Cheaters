@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cheaters.dir/plagiarismCatcher.cpp.obj"
-  "CMakeFiles/Cheaters.dir/tests.cpp.obj"
   "CMakeFiles/Cheaters.dir/hash.cpp.obj"
   "Cheaters.pdb"
   "Cheaters.exe"

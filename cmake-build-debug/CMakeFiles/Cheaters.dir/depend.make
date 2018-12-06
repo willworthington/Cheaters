@@ -8,5 +8,3 @@ CMakeFiles\Cheaters.dir\hash.cpp.obj: ..\hash.h
 CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj: ..\hash.h
 CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.obj: ..\plagiarismCatcher.cpp
 
-CMakeFiles\Cheaters.dir\tests.cpp.obj: ..\tests.cpp
-

@@ -9,7 +9,11 @@ using namespace std;
 
 int main() {
     Hash h(6);
-    //h.scanFiles("sm_doc_set","abf0704");
+    //h.scanFile("sm_doc_set","abf0704.txt",0);
+    //cout << endl << endl << "Break" << endl << endl;
+    //h.scanFile("sm_doc_set","abf70402.txt",0);
+
     h.scanDirectory("sm_doc_set");
+    //h.hashFunction();
 
 }

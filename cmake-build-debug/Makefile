@@ -178,33 +178,6 @@ plagiarismCatcher.cpp.s:
 	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\plagiarismCatcher.cpp.s
 .PHONY : plagiarismCatcher.cpp.s
 
-tests.obj: tests.cpp.obj
-
-.PHONY : tests.obj
-
-# target to build an object file
-tests.cpp.obj:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.obj
-.PHONY : tests.cpp.obj
-
-tests.i: tests.cpp.i
-
-.PHONY : tests.i
-
-# target to preprocess a source file
-tests.cpp.i:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.i
-.PHONY : tests.cpp.i
-
-tests.s: tests.cpp.s
-
-.PHONY : tests.s
-
-# target to generate assembly for a file
-tests.cpp.s:
-	$(MAKE) -f CMakeFiles\Cheaters.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Cheaters.dir\tests.cpp.s
-.PHONY : tests.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -220,9 +193,6 @@ help:
 	@echo ... plagiarismCatcher.obj
 	@echo ... plagiarismCatcher.i
 	@echo ... plagiarismCatcher.s
-	@echo ... tests.obj
-	@echo ... tests.i
-	@echo ... tests.s
 .PHONY : help
 
 

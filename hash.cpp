@@ -4,6 +4,8 @@
 
 #include "hash.h"
 #include <vector>
+#include <list>
+#include <iterator>
 #include <string>
 #include <cstring>
 #include <iostream>
@@ -16,19 +18,43 @@ using namespace std;
 
 Hash::Hash(int n){
     keyLength=n;
+    for(int i=0; i<HASH_TABLE_SIZE; i++){
+        hashTable[i] = new list<int>;
+    }
 }
 
 
 //all functions used in filling the hash table
-int Hash::hashFunction(const vector <string> key){
-    return 0;
+int Hash::hashFunction(){
+
+    unsigned int hashAddress=0;
+    int dif;
+    int mult=1;
+
+    for(int i=0; i<key.size(); i++){
+        dif = keyLength - i;
+        if (i>0){
+            mult*=PRIME;
+        }
+        hashAddress += stringToInt(key[i])*dif*mult;
+    }
+    hashAddress = hashAddress%HASH_TABLE_SIZE;
+    //cout << "hash: " << hashAddress << endl;
+    return hashAddress;
 }
 
-void Hash::scanFiles(const string dName, const string fName){
+unsigned int Hash::stringToInt(const string s){
+    unsigned int val=1;
+    for (int i=0; i<s.size(); i++){
+        val*=s[i];
+    }
+    return val;
+}
+
+void Hash::scanFile(const string dName, const string fName, const int fileIndex){
     key.clear();
-    //string fName = "abf0704";
-    fileNames.push_back(fName);
-    ifstream myfile(dName+"/"+fName+".txt",std::iostream::binary);
+    ifstream myfile(dName+"/"+fName,std::iostream::binary);
+    int tableIndex;
 
     if(myfile){
         string text;
@@ -41,16 +67,14 @@ void Hash::scanFiles(const string dName, const string fName){
             if (!myfile.eof()){
                 text = cleanText(text);
                 if (text.size()>0) key.push_back(text);
-                if(key.size()==keyLength){
-
-                    //only use this loop to check the key by printing to console
-                    for(int i=0; i<key.size(); i++){
-                        cout << key[i] << " ";
-                    }
-
-                    cout << endl;
+                if(key.size()>keyLength){
                     key.erase(key.begin());
                 }
+                if(key.size()==keyLength){
+                    tableIndex = hashFunction();
+                    hashTable[tableIndex]->push_front(fileIndex);
+                }
+
             }
         }
     }
@@ -58,19 +82,36 @@ void Hash::scanFiles(const string dName, const string fName){
 }
 
 void Hash::scanDirectory(const string dName){
-    //ifstream directory()
+
+    //Open Directory
     DIR *dir;
+    struct dirent *entry;
     dir = opendir(dName.c_str());
-    if(!dir){
-        cout << "Directory not Found!" << endl;
+    int count=0;
+
+    //Read files from directory
+    if(dir){
+        while ((entry=readdir(dir))){
+            string fName = string(entry->d_name);
+            if ((fName!=".")&&(fName!="..")){
+                fileNames.push_back(fName);
+                scanFile(dName,fName,count);
+
+                count++;
+            }
+        }
     }
     else{
-        cout << "Directory Found!" << endl;
+        cout << "Directory not Found!" << endl;
     }
-}
+    cout << "Files: ";
+    list<int> ::iterator  it;
+    for(it=hashTable[12660]->begin(); it!=hashTable[12660]->end(); it++){
+        cout << fileNames[*it] << " ";
+    }
 
-int Hash::push(const HashNode* top){
-    return 0;
+    //Close Directory
+    closedir(dir);
 }
 
 string Hash::cleanText(const string dirtyWord){

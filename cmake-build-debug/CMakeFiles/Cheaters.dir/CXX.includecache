@@ -53,6 +53,10 @@ hash.h
 C:/Users/willworthington/CLionProjects/Cheaters/hash.h
 vector
 -
+list
+-
+iterator
+-
 string
 -
 cstring
@@ -68,6 +72,8 @@ C:/Users/willworthington/CLionProjects/Cheaters/dirent.h
 
 C:/Users/willworthington/CLionProjects/Cheaters/hash.h
 vector
+-
+list
 -
 string
 -

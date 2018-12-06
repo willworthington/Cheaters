@@ -3,4 +3,4 @@ project(Cheaters)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Cheaters plagiarismCatcher.cpp hash.h tests.cpp hash.cpp dirent.h)
+add_executable(Cheaters plagiarismCatcher.cpp hash.h hash.cpp dirent.h)
