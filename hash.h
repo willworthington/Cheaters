@@ -22,17 +22,8 @@ private:
     vector <string> key;
     int keyLength;  // the vector "key" will be n-words long
     vector <string> fileNames;
-
-    /*
-    struct HashNode{
-        int index;
-        HashNode *next;
-    };  //node contains an index of a file in "fileName" vector and a pointer to next node
-
-    HashNode* hashtable[HASH_TABLE_SIZE];  // an array of pointers to hashNodes
-    */
-
     list<int>* hashTable[HASH_TABLE_SIZE];
+    vector<vector<int>> collisionTable;
 
 
 
@@ -47,8 +38,11 @@ public:
     unsigned int stringToInt(const string s);
     void scanFile(const string dName, const string fName, const int fileIndex);  //scans through all files in directory and hashes every n-word key
     void scanDirectory(const string dName);  //scans through entire directory, calls scanFile
-//    int push(const HashNode* top);  // pushes new node to top of linked list for its row
+    void findCollisions();  //Stores number of collisions between each pair of documents in collisionTable
+    void identifyCollisions(const int bound);  //Identifies the number of collisions greater than the arbitrary threshold
     string cleanText(const string dirtyWord);
+    int numberOfFiles();  //returns the number of files in current directory.  **Only call after directory has been searched
+
 
 
     //all functions used in reading/analyzing the hash table

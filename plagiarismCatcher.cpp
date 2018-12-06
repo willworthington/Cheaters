@@ -8,12 +8,18 @@
 using namespace std;
 
 int main() {
-    Hash h(6);
-    //h.scanFile("sm_doc_set","abf0704.txt",0);
-    //cout << endl << endl << "Break" << endl << endl;
-    //h.scanFile("sm_doc_set","abf70402.txt",0);
 
-    h.scanDirectory("sm_doc_set");
-    //h.hashFunction();
+    //Hard coded for clion testing
+    int sequenceSize = 6;
+    int threshold = 200;
+    string directory = "sm_doc_set";
+
+
+    Hash h(sequenceSize);
+    h.scanDirectory(directory);
+
+    cout << "NOTABLY SIMILAR FILES" << endl;
+    h.findCollisions();
+    h.identifyCollisions(threshold);
 
 }
